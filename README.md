@@ -1,5 +1,5 @@
 # url.Udo_learns-to-code.com
-Drum and drum related information
+A Learner's Journey
 
 Hello and welcome to my first repository on Github, yay!.
 
@@ -9,6 +9,6 @@ I implore you, my friend, to join me as I embark on this journey. I welcome all 
 #Resources 
 Learning tools and resources include:
 -freeCodeCamp @ https://www.freecodecamp.org
--Dave Gray @ youtube.com/DaveGrayTeachesCode?sub_confirmation=1
+-Dave Gray @ www.youtube.com/@DaveGrayTeachesCode
 
 @Udochukwu_Jonathan.
