@@ -7,8 +7,9 @@ A Learner's Journey
   I implore you, my friend, to join me as I embark on this journey. I welcome all suggestions and tips, to help me learn and code better.
 
 # Resources 
-Learning tools and resources include:
--freeCodeCamp @ https://www.freecodecamp.org
--Dave Gray @ www.youtube.com/@DaveGrayTeachesCode
+  Learning tools and resources include:
+ 
+ -freeCodeCamp @ https://www.freecodecamp.org
+ -Dave Gray @ www.youtube.com/@DaveGrayTeachesCode
 
-@Udochukwu_Jonathan.
+  @Udochukwu_Jonathan.
