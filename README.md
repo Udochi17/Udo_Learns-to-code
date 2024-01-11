@@ -9,7 +9,10 @@ A Learner's Journey
 # Resources 
   Learning tools and resources used include:
  
- -freeCodeCamp @ https://www.freecodecamp.org
- -Dave Gray @ www.youtube.com/@DaveGrayTeachesCode
+ - freeCodeCamp curriculum @https://www.freecodecamp.org.
+ 
+ - Dave Gray @www.youtube.com/@DaveGrayTeachesCode.
 
+ - Frontend Mentor @https://www.frontendmentor.io/
+  
   @Udochukwu_Jonathan.
