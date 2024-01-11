@@ -1,4 +1,4 @@
-# url.Udo_learns-to-code.com
+# Udo_learns-to-code.com
 A Learner's Journey
 
   Hello and welcome to my first repository on Github, yay!.
@@ -7,7 +7,7 @@ A Learner's Journey
   I implore you, my friend, to join me as I embark on this journey. I welcome all suggestions and tips, to help me learn and code better.
 
 # Resources 
-  Learning tools and resources include:
+  Learning tools and resources used include:
  
  -freeCodeCamp @ https://www.freecodecamp.org
  -Dave Gray @ www.youtube.com/@DaveGrayTeachesCode
