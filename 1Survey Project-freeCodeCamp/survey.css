@@ -1,0 +1,111 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-width: 300px;
+    min-height: 100vh;
+    background-position: center;
+    background-image: linear-gradient(270deg,#708d81af,#708d81af), url("../img/alex.png");
+}
+
+header {
+    margin: 4rem auto 2rem auto;
+}
+
+main {
+  margin: 10px auto;
+  background-color: #001427c9;
+  color: #ffffff;
+  padding: 3rem;
+  width: 50vw;
+  font-family: Tahoma, sans-serif;
+  font-size: 1.1rem;
+  border-radius: 4px;
+}
+
+form {
+    padding: 0.25rem 0.6rem;
+}
+
+
+#title {
+    color: #f8f9fa;
+    font-size: 2.7rem;
+    margin: 0.6rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+#description {
+    font-style: italic;
+    font-weight: 200;
+    font-family: helvetica, sans-serif;
+    font-size:large;
+    color: #eaf2fa;
+    margin: 0.6rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+input, textarea, select, button {
+    display: block;
+    width: 100%;
+    height: 2.2rem;
+    font-size: 1rem;
+    font-family: Geneva, sans-serif;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+label {
+    display: block;
+}
+
+sup{ 
+    vertical-align: middle;
+    font-weight: 100;
+    color: #e6e5e4;
+}
+
+.inline {
+    display: inline-block;
+    height: 1.3rem;
+    width: 2vw;
+    margin: 6px;
+    vertical-align: middle;
+}
+
+.label, .question {
+    margin: 1.6rem 0 0.4rem 0;
+}
+
+.input {
+    margin: 2rem 0 0.5rem 0;
+}
+
+textarea {
+    min-height: 100px;
+    padding: 0.6rem;
+    width:97%;
+}
+
+button {
+    background-color: #05977f;
+    color: #ffffff;
+    height: 3rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+textarea:focus, input:focus, select:focus, button:focus{
+    outline: none;
+    border-color: #0df0b7;
+    border-width: 2px;
+}
+
+::placeholder {
+    color: #1a1919a9;
+    padding-left: 10px;
+}
+

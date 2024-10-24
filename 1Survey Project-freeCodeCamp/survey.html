@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Survey-form.freeCodeCamp</title>
+      <meta name="description" content="Survey form project(personal) for freeCodeCamp Responsive Web Design certification">
+      <meta name="author" content="Udochukwu Jonathan">
+      <Link rel="stylesheet" href="survey.css">
+   </head>
+
+   <body>
+      <header>
+         <h1 id="title">CodinCamp Survey Form</h1>
+         <p id="description">Thank you for taking the time to help us improve the platform</p>
+      </header>
+      <main>
+         <form id="survey-form">
+            <div>
+               <label for="name" id="name-label" class="label">Name </label>
+               <input type="text" Name="fname" id="name" placeholder="Enter your name" required >
+            </div>
+         
+            <div>
+               <label for="email" id="email-label" class="label">Email </label>
+               <input type="email" Name="Email" id="email" placeholder="Enter your email" required > 
+            </div>
+
+            <div>
+               <label for="age" id="number-label" class="label">Age <sup>(optional)</sup></label>
+               <input type="number" Name="Email" id="age" placeholder="Age" min="13" max="120" required>   
+            </div>
+
+            <div>
+               <p class="question">Which option best describes your current role? </p>
+               <select id="dropdown-1" class="select-fav">
+                  <option disabled selected>Select current role</option>
+                  <option value="student">Student</option>
+                  <option value="full-time-learner">Full Time Learner</option>
+                  <option value="full-time-job">Full Time Job</option>
+                  <option value="prefer-not">Prefer not to say</option>
+                  <option value="other">Other</option>
+               </select>
+            </div>
+            
+            <div>
+               <p class="question">Would you recommend CodingCamp to a friend?</p> 
+               <label for="choice-1" >
+                  <input type="radio" id="choice-1" name="Recommend" class="inline" value="definitely" checked>Definitely
+               </label>
+            </div>
+               
+            <div>
+               <label for="choice-2">
+                  <input type="radio" id="choice-2" name="Recommend" value="maybe" class="inline">Maybe
+               </label>
+            </div>
+
+            <div>
+               <label for="choice-3">
+                  <input type="radio" id="choice-3" name="Recommend" value="maybe" class="inline">Not sure
+               </label>
+            </div>        
+   
+            <div>
+               <p class="question">What is your favourite feature of CodingCamp?</p>
+               <select id="dropdown-2" class="select-fav">
+                  <option disabled selected>Select an option</option>
+                  <option value="challenges">Challenges</option>
+                  <option value="projects">Projects</option>
+                  <option value="community">Community</option>
+                  <option value="open-src">Open source</option>
+               </select>
+            </div>
+         
+            <div>
+               <p class="input checkbox"> What would you like to see improved? (Check all that apply) </p>
+               <label for="front-end">
+                  <input type="checkbox" name="improved-feat" id="front-end" value="front-end-projects" class="inline">Front-end Projects
+               </label>
+            </div>
+                                       
+            <div>
+               <label for="back-end">
+                  <input type="checkbox" name="improved-feat" id="back-end" value="back-end-projects" class="inline">Back-end Projects
+               </label> 
+            </div>                         
+            
+            <div>
+               <label for="data-visual">
+                  <input type="checkbox" name="improved-feat" id="data-visual" value="data-visualization" class="inline">Data Visualization
+               </label> 
+            </div>                  
+            
+            <div>
+               <label for="challenge">
+                  <input type="checkbox" name="improved-feat" id="challenge" value="challenges" class="inline">Challenges
+               </label>
+            </div>
+                                 
+            <div>
+               <label for="opn-src-comm">
+                  <input type="checkbox" name="improved-feat" id="opn-src-comm" value="open-src-community" class="inline">Open Source Community
+               </label> 
+            </div>              
+            
+            <div>
+               <label for="gitter-hlp">
+                  <input type="checkbox" name="improved-feat" id="gitter-hlp" value="gittr-help-rooms" class="inline">Gitter help rooms
+               </label>
+            </div>
+                                 
+            <div>
+               <label for="vid">
+                  <input type="checkbox" name="improved-feat" id="vid" value="video" class="inline">Videos
+               </label>
+            </div>
+                                       
+            <div>
+               <label for="city-meetups">
+                  <input type="checkbox" name="improved-feat" id="city-meetups" value="city-meetup" class="inline">City Meetups
+               </label>
+            </div>                  
+               
+            <div>
+               <label for="wiki">
+                  <input type="checkbox" name="improved-feat" id="wiki" value="wikki" class="inline">Wiki
+               </label>
+            </div>
+                              
+            <div>
+               <label for="forum">
+                  <input type="checkbox" name="improved-feat" id="forum" value="forum" class="inline">Forum
+               </label> 
+            </div>                  
+            
+            <div>
+               <label for="add-courses">
+                  <input type="checkbox" name="improved-feat" id="add-courses" value="additional-courses" class="inline">Additional Courses
+               </label>
+            </div>
+
+            <p class="input text"> Any comments or suggestions?</p>
+            <textarea id="suggestions" name="comments" placeholder="Enter your comment here..."></textarea>
+
+            <div>
+               <button type="submit" id="submit" class="input submit" formaction="https://httpbin.org" formmethod="post">Submit</button>
+            </div>
+         </form>
+      </main>
+   </body>
+</html>

@@ -1,0 +1,95 @@
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-color: #283618;
+    margin: 0;
+    line-height: 1.3;
+}
+
+#main {
+    margin: 15px 8px;
+    background-color: #283618;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #E4E4E2;
+}
+
+#img-fig {
+    background-color: #446c38;    
+    margin: 0;
+    padding: 10px;
+}
+
+figcaption {
+    margin-top:10px ;
+}
+
+#img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.article {
+    text-align: left;
+    margin: 20px auto;
+    text-indent: 2rem;
+    font-size: 14px;
+}
+
+.article_detail {
+    margin: 3px;
+    line-height: 1.5;
+}
+
+.wrapper_ul {
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.wrapper_list {
+    margin-top: 7px;
+    text-align: left;
+    margin-left: 3rem;
+    
+}
+
+.footer_link {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-top: 5px;
+}
+
+a:any-link,
+a {
+    color: #FADBDB;
+    text-decoration: none;
+    padding: 2px 4px;
+}
+ 
+a:hover {
+    color: #ffffff;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+@media screen and (min-width: 760px){
+    .article_detail,
+    .wrapper_ul {
+        font-size: larger;
+    }
+    
+    .footer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    
+}
